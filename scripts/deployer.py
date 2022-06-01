@@ -1,9 +1,9 @@
 from scripts.helpful_scripts import LOCAL_BLOCKCHAIN_ENVIRONMENTS, get_account
 from brownie import (
-    GovernorContract,
-    GovernanceToken,
-    GovernanceTimeLock,
-    Box,
+    TshelaGovernance,
+    MotsheloMemberToken,
+    TshelaTimeLock,
+    BallotBox,
     Contract,
     config,
     network,
@@ -17,8 +17,8 @@ import time
 QUORUM_PERCENTAGE = 75
 # VOTING_PERIOD = 45818  # 1 week - more traditional.
 # You might have different periods for different kinds of proposals
-VOTING_PERIOD = 5  # 5 blocks
-VOTING_DELAY = 1  # 1 block
+VOTING_PERIOD = 45818  # 45818 blocks
+VOTING_DELAY = 6500  # 6500 block
 
 # Timelock
 # MIN_DELAY = 36000  # 1 hour - more traditional
