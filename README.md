@@ -14,3 +14,10 @@ This governance standard requires a minimum of 75% of all members to vot on a pr
  # written for:
  The Gitcoin chainIDe bounty.
  
+ # The Script
+ The script deployes the contracts and assignes ownershhihp accordingly...
+ 
+ # How To:
+ It's not yet very User friendly. One would need to know a bit of python the basics realy and a Python compatible solidty Ide than can run pythonic code.
+ The main() function in the program sets these parameters and with a little editing can change the parameters and values.
+ 
